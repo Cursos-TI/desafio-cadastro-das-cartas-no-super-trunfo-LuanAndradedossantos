@@ -26,7 +26,7 @@ int main() {
     scanf("%f", pib);
 
     printf("digite a quantidade de pontos turísticos\n");
-    scanf("%d", &pontost)
+    scanf("%d", &pontost);
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
