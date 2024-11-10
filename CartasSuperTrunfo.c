@@ -8,7 +8,7 @@
 int main() {
     int codigo, pontost;
     float area, pib, populacao;
-    float densidadep, resultado;
+    float densidadep, resultado, pibpercapita;
     char estado;
     char nome[50];
 
@@ -35,7 +35,11 @@ int main() {
 
     resultado = (populacao / area);
 
-    printf("a densidade é: %.2f\n", resultado);
+    printf("a densidade é: %f\n", resultado);
+
+    pibpercapita = (pib / populacao);
+
+    printf("o Pib Per Capita é: %f\n", pibpercapita);
 
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
